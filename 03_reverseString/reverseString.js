@@ -2,8 +2,6 @@ const reverseString = function(str) {
     let newStr = str.split('')
 
     newStr.reverse();
-    
-  
 
     return newStr.join('');
 };
